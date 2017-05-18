@@ -39,7 +39,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Plaese Log In</title>
+	<title>Please Log In</title>
 	<meta charset="utf-8">
 	<meta name="veiwport" content="width=device-width, initial-scale=1">
 	<base href="/">

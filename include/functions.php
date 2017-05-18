@@ -87,12 +87,67 @@
 		} else return "not prepared";
 	}
 
-	function plan_next_period ($base_period){ //plans next inspection period base on last period
-		$base_mysqli = pr_connect();
-		$insert_mysqli = new $base_mysqli;
 
-		if 
+	function add_new_inspection($eq_id,$period,$plan_date){  // adds a new inspection plan
+		$mysqli = pr_connect();
+		if ($stmt = $mysqli->prepare("INSERT INTO ins_plan (Ins_planEQID, Ins_plandate, Ins_planperiod)	VALUES (?,?,?)")){
+			$stmt -> bind_param('isi',$eq_id,$plan_date,$period);
+			if ($stmt->execute()){
+				return $stmt->affected_rows;
+			} else { 
+				return $stmt->error;
+			}
+		}else{
+			return -1;
+		}
+		$stmt->close();
+
+	}
 
 
+
+	function plan_next_period ($base_period,$target_period){ //plans next inspection period base on last period
+		$r = 0;
+		$mysqli = pr_connect();
+		$sql = "SELECT i.Ins_planEQID, i.Ins_plandate, i.Ins_planperiod, p.INTERVAL FROM ins_plan i inner join inspection_period p on i.ins_planEQID = p.EQID where i.Ins_planperiod = ".$base_period.";";
+		$base_plan = $mysqli->query($sql);
+
+		while ($row = $base_plan->fetch_assoc()) {
+/*			Add two date
+			Add anamount of time to a date
+			link: http://php.net/manual/en/datetime.add.php*/
+
+			$new_plan_date = new DateTime($row['Ins_plandate']);
+			$new_plan_date-> add(new DateInterval('P'.$row['INTERVAL'].'D'));
+
+			if (($d = add_new_inspection($row['Ins_planEQID'],$target_period, $new_plan_date->format('Y/m/d'))) > 0) {
+				$r += $d; 
+
+			}
+			else{
+				die($d);
+			}	
+		}
+		return $r;
+		$mysqli->close();
+	}
+
+
+	function plan_next_period_d ($target_period,$first_day){  //plans next period base on a given date
+		$pdo = pdo_connect();
+		$sql = "SELECT EQID, INTERVAL, STARTDAY FROM inspection_period";
+		$result = $pdo -> query($sql);
+		echo $result->num_rows;
+		while ($row = $result->fetch_assoc()){
+			$new_plan_date = new DateTime($first_day);
+			$new_plan_date-> add(new DateInterval('P'.$row['INTERVAL'].'D'));
+
+			if (($d = add_new_inspection($row['EQID'],$target_period, $new_plan_date->format('Y/m/d'))) > 0) {
+				$r += $d; 
+			}
+			else{
+				die($d);
+			}
+		}
 
 	}

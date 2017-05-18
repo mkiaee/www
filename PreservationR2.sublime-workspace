@@ -4,6 +4,94 @@
 		"selected_items":
 		[
 			[
+				"conn",
+				"connection"
+			],
+			[
+				"D",
+				"DB_PASSWORD"
+			],
+			[
+				"DB",
+				"DB_USERNAME"
+			],
+			[
+				"ph",
+				"phpinfo"
+			],
+			[
+				"bas",
+				"base_plan"
+			],
+			[
+				"new",
+				"new_plan_date"
+			],
+			[
+				"inte",
+				"INTERVAL"
+			],
+			[
+				"ins_",
+				"Ins_plandate"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"ins",
+				"ins_planEQID"
+			],
+			[
+				"add",
+				"add_new_inspection"
+			],
+			[
+				"fe",
+				"fetch_assoc"
+			],
+			[
+				"ba",
+				"base_plan"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"pla",
+				"plan_date"
+			],
+			[
+				"into",
+				"INTO"
+			],
+			[
+				"IN",
+				"INSERT"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"er",
+				"errmsg"
+			],
+			[
+				"br",
+				"break"
+			],
+			[
+				"e",
+				"errmsg"
+			],
+			[
 				"w_in",
 				"w_ins_detail"
 			],
@@ -292,10 +380,6 @@
 				"Page"
 			],
 			[
-				"ph",
-				"php\t<?php … ?>"
-			],
-			[
 				"box",
 				"box-shadow"
 			],
@@ -396,10 +480,6 @@
 				"EQUIPMENT_ID"
 			],
 			[
-				"e",
-				"errr"
-			],
-			[
 				"get",
 				"GET"
 			],
@@ -434,176 +514,47 @@
 			[
 				"qt",
 				"QTY"
-			],
-			[
-				"locatio",
-				"EQ_LOCATION_D"
-			],
-			[
-				"desc",
-				"DESCRIPTION"
-			],
-			[
-				"tag",
-				"TAG_NO"
-			],
-			[
-				"disc",
-				"DISCIPLINE_NAME"
-			],
-			[
-				"Pac",
-				"PACKAGE_CODE"
-			],
-			[
-				"chec",
-				"checkbox"
-			],
-			[
-				"w3",
-				"w3-check"
-			],
-			[
-				"te",
-				"text-overflow"
-			],
-			[
-				"ro",
-				"roboto"
-			],
-			[
-				"date",
-				"date_input"
-			],
-			[
-				"To",
-				"Tomorrow"
-			],
-			[
-				"to",
-				"tomorrow"
-			],
-			[
-				"ac",
-				"action\tAttr"
-			],
-			[
-				"re",
-				"return"
-			],
-			[
-				"dis",
-				"discipline"
-			],
-			[
-				"sty",
-				"style"
-			],
-			[
-				"fetch_a",
-				"cubrid_fetch_assoc"
-			],
-			[
-				"side",
-				"sidenav"
-			],
-			[
-				"pl",
-				"planresultmodal"
-			],
-			[
-				"plan",
-				"planresult"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "pages/workorder.php",
-			"settings":
-			{
-				"buffer_size": 4919,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "include/inspectionresult.php",
-			"settings":
-			{
-				"buffer_size": 8698,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.php",
-			"settings":
-			{
-				"buffer_size": 2315,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "scripts/prscripts.js",
-			"settings":
-			{
-				"buffer_size": 701,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "include/eqlist.php",
-			"settings":
-			{
-				"buffer_size": 2072,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/preserve.css",
-			"settings":
-			{
-				"buffer_size": 3532,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "include/functions.php",
 			"settings":
 			{
-				"buffer_size": 2453,
+				"buffer_size": 4350,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "include/getactionlist.php",
+			"file": "include/connect-db.php",
 			"settings":
 			{
-				"buffer_size": 1265,
+				"buffer_size": 769,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "include/ajaxfunc.php",
+			"file": "test.php",
 			"settings":
 			{
-				"buffer_size": 1299,
+				"buffer_size": 87,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Windows",
+				"name": "<?php"
 			}
 		},
 		{
-			"file": "include/logout.php",
+			"contents": "Dashboard Page:\n  ☐ weather widget\n  ☐ progress bars\n  ☐ recent event\nEquipment List:\n  ☐ Build the New One\nWork Order:\n\n\nfunctions:\n  plan next periods:\n    ☐ see if is possible to get the progress of while loop?\n    ☐ increase the max time out time\n",
+			"file": "TODO.todo",
+			"file_size": 174,
+			"file_write_time": 131395790253879000,
 			"settings":
 			{
-				"buffer_size": 455,
+				"buffer_size": 251,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -616,10 +567,46 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 490.0,
-		"last_filter": "sy",
+		"height": 392.0,
+		"last_filter": "st p",
 		"selected_items":
 		[
+			[
+				"st p",
+				"Set Syntax: PHP"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"new ",
+				"Tasks: New document"
+			],
+			[
+				"tas",
+				"Tasks: New"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"git:",
+				"Git: Status"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
 			[
 				"sy",
 				"Set Syntax: PHP"
@@ -677,10 +664,6 @@
 				"Emmet: Expand Abbreviation"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"emm",
 				"Emmet: Reload Extensions"
 			],
@@ -693,7 +676,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 593.0
+		"width": 432.0
 	},
 	"console":
 	{
@@ -713,14 +696,31 @@
 	},
 	"expanded_folders":
 	[
-		"/D/AppacheWebPages/P2",
-		"/D/AppacheWebPages/P2/css",
-		"/D/AppacheWebPages/P2/include",
-		"/D/AppacheWebPages/P2/pages",
-		"/D/AppacheWebPages/P2/scripts"
+		"/D/www",
+		"/D/www/bin",
+		"/D/www/bin/img",
+		"/D/www/include"
 	],
 	"file_history":
 	[
+		"/D/PHP7/php.ini",
+		"/D/Apache24/conf/httpd.conf",
+		"/C/Users/Mesalli/AppData/Roaming/Sublime Text 3/Packages/User/PlainTasks.sublime-settings",
+		"/C/Users/Mesalli/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/Mesalli/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/Mesalli/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/D/www/login.php",
+		"/C/Users/Mesalli/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/C/Users/Mesalli/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/D/www/include/logout.php",
+		"/D/www/include/ajaxfunc.php",
+		"/D/www/include/getactionlist.php",
+		"/D/www/include/functions.php",
+		"/D/www/css/preserve.css",
+		"/D/www/include/eqlist.php",
+		"/D/www/scripts/prscripts.js",
+		"/D/www/index.php",
+		"/D/www/pages/workorder.php",
 		"/D/AppacheWebPages/P2/pages/plan.php",
 		"/D/AppacheWebPages/P2/include/inspectionresult.php",
 		"/D/AppacheWebPages/P2/pages/sidenav.php",
@@ -803,7 +803,7 @@
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -819,6 +819,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"`",
+			"EQID",
+			"`inspection_period`.",
+			"inspection_period",
+			"`inspection_period`",
+			" \n",
+			"`",
 			"$",
 			",",
 			"<{",
@@ -939,9 +946,7 @@
 			"w3-sidenav",
 			"w3-contai",
 			"side",
-			"verify",
-			"verif",
-			"extens"
+			"verify"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -967,27 +972,28 @@
 			[
 				{
 					"buffer": 0,
-					"file": "pages/workorder.php",
+					"file": "include/functions.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4919,
+						"buffer_size": 4350,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4480,
-								4480
+								3308,
+								3308
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1665.0,
+						"translation.y": 1508.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -995,19 +1001,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "include/inspectionresult.php",
-					"semi_transient": true,
+					"file": "include/connect-db.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8698,
+						"buffer_size": 769,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5749,
-								5426
+								765,
+								765
 							]
 						],
 						"settings":
@@ -1015,7 +1021,7 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1757.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1023,202 +1029,25 @@
 				},
 				{
 					"buffer": 2,
-					"file": "index.php",
+					"file": "test.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2315,
+						"buffer_size": 87,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								426,
-								426
+								87,
+								87
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 64.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "scripts/prscripts.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 701,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								700,
-								700
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "include/eqlist.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2072,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2071,
-								2071
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 196.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "css/preserve.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3532,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1443,
-								1443
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1163.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "include/functions.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2453,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2359,
-								2359
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
+							"auto_name": "<?php",
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1026.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "include/getactionlist.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1265,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1263,
-								1263
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "include/ajaxfunc.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1299,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1133,
-								1133
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1228,32 +1057,34 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "include/logout.php",
+					"buffer": 3,
+					"file": "TODO.todo",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 455,
+						"buffer_size": 251,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								25,
-								25
+								250,
+								250
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"plain_tasks_remain_time_phantoms":
+							[
+							],
+							"syntax": "Packages/PlainTasks/PlainTasks.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1261,7 +1092,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -1293,6 +1124,10 @@
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
 	},
 	"pinned_build_system": "",
 	"project": "PreservationR2.sublime-project",
@@ -1336,7 +1171,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 296.0,
+	"side_bar_width": 197.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
