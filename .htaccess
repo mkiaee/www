@@ -1,0 +1,6 @@
+# RewriteEngine On
+# RewriteBase /
+# RewriteRule ^login$ /pages/login.php [C]
+# RewriteRule ^plan/(.*)$ /index.php?page=plan&day=$1 [C]
+# RewriteRule ^(overview|plan)$ /index.php?page=$1 [C]
+# RewriteRule (^/.)$ /index.php?page=overview [L]

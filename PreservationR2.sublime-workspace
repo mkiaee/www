@@ -1,0 +1,1344 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"w_in",
+				"w_ins_detail"
+			],
+			[
+				"w",
+				"w_date"
+			],
+			[
+				"a",
+				"aWO"
+			],
+			[
+				"eq",
+				"eq_id"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"req",
+				"req1\trequire_once …"
+			],
+			[
+				"ar",
+				"arguments"
+			],
+			[
+				"bind",
+				"bind_param"
+			],
+			[
+				"Wh",
+				"WHERE"
+			],
+			[
+				"pr",
+				"pr_connect"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"act",
+				"action-type"
+			],
+			[
+				"col",
+				"col-sm-10"
+			],
+			[
+				"col-sm",
+				"col-sm-8"
+			],
+			[
+				"inp",
+				"input-group"
+			],
+			[
+				"in",
+				"input-group"
+			],
+			[
+				"sess",
+				"session_start"
+			],
+			[
+				"no",
+				"no-padding"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"clo",
+				"close"
+			],
+			[
+				"wh",
+				"what_to_return"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"cont",
+				"container-fluid"
+			],
+			[
+				"logshee",
+				"logsheet"
+			],
+			[
+				"logsh",
+				"logsheet"
+			],
+			[
+				"print",
+				"printf"
+			],
+			[
+				"logshe",
+				"logsheetrows"
+			],
+			[
+				"exe",
+				"execute"
+			],
+			[
+				"user",
+				"Userid"
+			],
+			[
+				"st",
+				"stmt"
+			],
+			[
+				"con",
+				"conn"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"row",
+				"ROW_ID"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"bo",
+				"border-style"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ht",
+				"htmlspecialchars"
+			],
+			[
+				"perio",
+				"Ins_planperiod"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"is",
+				"isset"
+			],
+			[
+				"use",
+				"user_discipline"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"nu",
+				"num_rows"
+			],
+			[
+				"p",
+				"php"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"ri",
+				"margin-right"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"pre",
+				"preservationusers"
+			],
+			[
+				"u",
+				"userfname"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"ove",
+				"overview"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"ge",
+				"_GET"
+			],
+			[
+				"pag",
+				"Page"
+			],
+			[
+				"ph",
+				"php\t<?php … ?>"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"acc",
+				"ACCTO"
+			],
+			[
+				"dr",
+				"dropdown-menu"
+			],
+			[
+				"th",
+				"th1"
+			],
+			[
+				"tes",
+				"testalert"
+			],
+			[
+				"bt",
+				"btn"
+			],
+			[
+				"dro",
+				"dropdown-toggle"
+			],
+			[
+				"d",
+				"dropdown"
+			],
+			[
+				"at",
+				"aTD"
+			],
+			[
+				"co",
+				"colIndex"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"sub",
+				"Submit"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"g",
+				"glyphicons"
+			],
+			[
+				"cli",
+				"clickable-row"
+			],
+			[
+				"dat",
+				"data"
+			],
+			[
+				"moda",
+				"modal"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"pr_ac",
+				"pr_action_id"
+			],
+			[
+				"list",
+				"list-inline"
+			],
+			[
+				"Ta",
+				"TAG_NO"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"Eq",
+				"EQUIPMENT_ID"
+			],
+			[
+				"e",
+				"errr"
+			],
+			[
+				"get",
+				"GET"
+			],
+			[
+				"eqid",
+				"Ins_planEQID"
+			],
+			[
+				"cl",
+				"clickable-row"
+			],
+			[
+				"P",
+				"PreviousDay"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"id",
+				"idIns_plan"
+			],
+			[
+				"vendo",
+				"VENDOR_NAME"
+			],
+			[
+				"qt",
+				"QTY"
+			],
+			[
+				"locatio",
+				"EQ_LOCATION_D"
+			],
+			[
+				"desc",
+				"DESCRIPTION"
+			],
+			[
+				"tag",
+				"TAG_NO"
+			],
+			[
+				"disc",
+				"DISCIPLINE_NAME"
+			],
+			[
+				"Pac",
+				"PACKAGE_CODE"
+			],
+			[
+				"chec",
+				"checkbox"
+			],
+			[
+				"w3",
+				"w3-check"
+			],
+			[
+				"te",
+				"text-overflow"
+			],
+			[
+				"ro",
+				"roboto"
+			],
+			[
+				"date",
+				"date_input"
+			],
+			[
+				"To",
+				"Tomorrow"
+			],
+			[
+				"to",
+				"tomorrow"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"dis",
+				"discipline"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"fetch_a",
+				"cubrid_fetch_assoc"
+			],
+			[
+				"side",
+				"sidenav"
+			],
+			[
+				"pl",
+				"planresultmodal"
+			],
+			[
+				"plan",
+				"planresult"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "pages/workorder.php",
+			"settings":
+			{
+				"buffer_size": 4919,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "include/inspectionresult.php",
+			"settings":
+			{
+				"buffer_size": 8698,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 2315,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scripts/prscripts.js",
+			"settings":
+			{
+				"buffer_size": 701,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "include/eqlist.php",
+			"settings":
+			{
+				"buffer_size": 2072,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/preserve.css",
+			"settings":
+			{
+				"buffer_size": 3532,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "include/functions.php",
+			"settings":
+			{
+				"buffer_size": 2453,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "include/getactionlist.php",
+			"settings":
+			{
+				"buffer_size": 1265,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "include/ajaxfunc.php",
+			"settings":
+			{
+				"buffer_size": 1299,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "include/logout.php",
+			"settings":
+			{
+				"buffer_size": 455,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "sy",
+		"selected_items":
+		[
+			[
+				"sy",
+				"Set Syntax: PHP"
+			],
+			[
+				"lint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"sor",
+				"Sort Lines"
+			],
+			[
+				"colo",
+				"Package Control: Install Package"
+			],
+			[
+				"sy ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"se h",
+				"Set Syntax: HTML"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"SublimeLinter: Choose Mark Style"
+			],
+			[
+				" in",
+				"Package Control: Install Package"
+			],
+			[
+				"package con",
+				"Package Control: Install Package"
+			],
+			[
+				"sy ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"emme",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"emm",
+				"Emmet: Reload Extensions"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 150.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/AppacheWebPages/P2",
+		"/D/AppacheWebPages/P2/css",
+		"/D/AppacheWebPages/P2/include",
+		"/D/AppacheWebPages/P2/pages",
+		"/D/AppacheWebPages/P2/scripts"
+	],
+	"file_history":
+	[
+		"/D/AppacheWebPages/P2/pages/plan.php",
+		"/D/AppacheWebPages/P2/include/inspectionresult.php",
+		"/D/AppacheWebPages/P2/pages/sidenav.php",
+		"/D/AppacheWebPages/P2/index.php",
+		"/D/AppacheWebPages/P2/Pages/plan.php",
+		"/D/AppacheWebPages/Preservation/dailyplan.php",
+		"/D/AppacheWebPages/P2/pages/overview.php",
+		"/D/AppacheWebPages/Preservation/include/ajaxfunc.php",
+		"/D/AppacheWebPages/P2/include/process_login.php",
+		"/D/AppacheWebPages/P2/include/loginfunction.php",
+		"/D/AppacheWebPages/P2/scripts/form.js",
+		"/D/AppacheWebPages/P2/login.php",
+		"/D/AppacheWebPages/P2/.htaccess",
+		"/D/AppacheWebPages/P2/Pages/login.php",
+		"/D/AppacheWebPages/P2/scripts/sha512.js",
+		"/D/AppacheWebPages/P2/scripts/prscripts.js",
+		"/D/AppacheWebPages/P2/css/preserve.css",
+		"/C/Apache24/conf/httpd.conf",
+		"/D/AppacheWebPages/.htaccess",
+		"/D/AppacheWebPages/index.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/AppacheWebPages/P2/Pages/overview.php",
+		"/D/AppacheWebPages/P2/include/dailyplansummary.php",
+		"/D/AppacheWebPages/P2/include/connect-db.php",
+		"/D/AppacheWebPages/Preservation/index.php",
+		"/D/AppacheWebPages/Preservation/css/preserve.css",
+		"/D/AppacheWebPages/Preservation/equipmentlist.php",
+		"/D/AppacheWebPages/Preservation/scripts/prscripts.js",
+		"/D/AppacheWebPages/Preservation/pages/inspectionresult.php",
+		"/D/AppacheWebPages/Preservation/pages/eq_list.php",
+		"/C/Users/Mori/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/PHP7.0/php.ini",
+		"/C/Users/Mori/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/D/AppacheWebPages/Preservation/bstest.html",
+		"/D/AppacheWebPages/Preservation/pages/sidenav.php",
+		"/D/AppacheWebPages/Preservation/index-old.php",
+		"/D/AppacheWebPages/Preservation/pages/dailyplan.php",
+		"/D/AppacheWebPages/Preservation/plan.php",
+		"/D/AppacheWebPages/Preservation/include/plannext.php",
+		"/D/AppacheWebPages/Preservation/eqidcard.php",
+		"/D/AppacheWebPages/Preservation/pages/topbar.php",
+		"/D/AppacheWebPages/Preservation/css/w3.css",
+		"/D/AppacheWebPages/Preservation/include/db-functions.php",
+		"/D/AppacheWebPages/Preservation/vendor/bsdatepicker/css/bootstrap-datepicker.min.css",
+		"/D/AppacheWebPages/Preservation/pages/eq_detail.php",
+		"/D/AppacheWebPages/Preservation/include/connect-db.php",
+		"/D/AppacheWebPages/Preservation/include/config_global_var.php",
+		"/D/AppacheWebPages/Preservation/css/costum.css",
+		"/D/AppacheWebPages/Preservation/html/sidetest.html",
+		"/C/Users/Mori/Desktop/list.csv",
+		"/C/Users/Mori/Desktop/exlist.csv",
+		"/C/Users/Mori/Desktop/listDOS.csv",
+		"/C/Users/Mori/Desktop/eqtype.csv",
+		"/C/Users/Mori/Desktop/vendor.csv",
+		"/C/Users/Mori/Desktop/discipline.csv",
+		"/D/AppacheWebPages/Preservation/include/main_menu.html",
+		"/D/AppacheWebPages/Preservation/html/Login.html",
+		"/D/AppacheWebPages/Preservation/html/landingtest.html",
+		"/D/AppacheWebPages/connection.php",
+		"/D/AppacheWebPages/config_global_var.php",
+		"/D/AppacheWebPages/Preservation/include/functions",
+		"/D/AppacheWebPages/Preservation/login_TEST.php",
+		"/D/AppacheWebPages/Preservation/css/bootstrap-theme.css",
+		"/D/AppacheWebPages/cofig_global_var.php",
+		"/C/Users/Mori/AppData/Local/Temp/Rar$DIa0.946/functions.php",
+		"/C/Users/Mori/AppData/Local/Temp/Rar$DIa0.865/functions.php",
+		"/C/Users/Mori/AppData/Local/Temp/Rar$DIa0.454/psl-config.php",
+		"/C/Users/Mori/AppData/Local/Temp/Rar$DRa0.945/phpSecureLogin-master/js/sha512.js",
+		"/C/Users/Mori/AppData/Local/Temp/Rar$DIa0.766/index.php",
+		"/D/AppacheWebPages/Preservation/Login.html",
+		"/D/AppacheWebPages/apacetest.html",
+		"/C/PHP7.0/php.ini-development",
+		"/C/mysql/my-default.ini",
+		"/C/Users/Mori/Downloads/download",
+		"/D/MySqlData/DESKTOP-KE6FEQV.err",
+		"/C/mysql/my.ini",
+		"/C/mysql/bin/my.ini",
+		"/C/mysql/bin/mysqld.ini",
+		"/C/mysql-5.7.15-winx64/mysql-5.7.15-winx64/README"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"<open folders>",
+			"D:\\AppacheWebPages\\Preservation"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$",
+			",",
+			"<{",
+			"`",
+			"(`",
+			"`preservation`.`",
+			"cur",
+			"strog",
+			"    ",
+			"workorders",
+			"`",
+			"$.ajax",
+			"td",
+			"th",
+			" ",
+			"cleaning",
+			"ccleaning",
+			"= ",
+			"di",
+			"eqID",
+			"eqId",
+			"fa",
+			"20px",
+			"flex",
+			"button",
+			"span",
+			"loading",
+			";'",
+			"br",
+			" <",
+			"echo",
+			"?>",
+			"]\"",
+			"]",
+			"),",
+			")",
+			"checked",
+			"?",
+			"logsheetrows",
+			"$logsheetrows",
+			",",
+			"]",
+			"logsheetrows",
+			"Things",
+			",\n",
+			"=",
+			"    \t\t\t$(\"",
+			"d=",
+			"\")",
+			")",
+			"#",
+			"name",
+			"value",
+			"]",
+			"''",
+			",",
+			"period",
+			"$",
+			",",
+			"period",
+			"P",
+			",$value['pr_action_id']",
+			"jason_encode",
+			"']",
+			"_POST['",
+			"s",
+			"}>",
+			"}>,",
+			"<",
+			"`",
+			"`logsheet`.`",
+			"radiochek",
+			"inspectionitem",
+			"$user_discipline = $_SESSION['user_discipline'];",
+			"sess",
+			"include_once",
+			"email",
+			"h2",
+			"udicipline",
+			"`",
+			"`preservationusers`.`",
+			"allowo",
+			"<dire",
+			"htacc",
+			"ServerN",
+			"hta",
+			"virtu",
+			"$aReturn",
+			"activ",
+			"php",
+			"inspectionResult",
+			"glyph",
+			"pr-table",
+			"em",
+			"content",
+			"pr_action",
+			"preservation",
+			"equipment_list",
+			"preservation",
+			"eq_extended_list",
+			"`",
+			"row",
+			"font-awsome",
+			"foreach",
+			"add",
+			"functionname",
+			"get_all_eq_list_td",
+			"margin:auto",
+			"\t\t\t\t\t\t\n",
+			"s2",
+			"w3-top",
+			"w3-card",
+			"=",
+			"active",
+			"eee",
+			"707070",
+			"curs",
+			"w3-sidenav",
+			"w3-contai",
+			"side",
+			"verify",
+			"verif",
+			"extens"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"email",
+			"",
+			"like"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "pages/workorder.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4480,
+								4480
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1665.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "include/inspectionresult.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 8698,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5749,
+								5426
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1757.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								426,
+								426
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 64.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "scripts/prscripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 701,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								700,
+								700
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "include/eqlist.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2072,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2071,
+								2071
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 196.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/preserve.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1443,
+								1443
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1163.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "include/functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2453,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2359,
+								2359
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1026.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "include/getactionlist.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1263,
+								1263
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "include/ajaxfunc.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1133,
+								1133
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "include/logout.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "PreservationR2.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 296.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
