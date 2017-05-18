@@ -86,3 +86,13 @@
 		} else return $stmt->error;
 		} else return "not prepared";
 	}
+
+	function plan_next_period ($base_period){ //plans next inspection period base on last period
+		$base_mysqli = pr_connect();
+		$insert_mysqli = new $base_mysqli;
+
+		if 
+
+
+
+	}

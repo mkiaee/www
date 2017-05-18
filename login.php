@@ -4,24 +4,35 @@
 
 
 	session_start();
-	echo "session_id()= ".session_id();
-	if (isset($GET['error'])) {
-		switch ($e = $GET['error']) {
+	$errmsg = '';
+	if (isset($_GET['error'])) {
+		switch ($e = intval($_GET['error'])) {
 			case 1:
 				$errmsg ='User is Disabled. Please contact Administrator';
+				$etype = 'alert-danger';
 				break;
 			case 3:
 				$errmsg = 'Wrong Password';
+				$etype = 'alert-danger';
 				break;
 			case 4:
-				$errmsg = 'User dosenot exists';
+				$errmsg = 'User dose not exists';
+				$etype = 'alert-danger';
 				break;
-			
+			case 5:
+				$errmsg = 'You Must Login First To See this Content';
+				$etype = 'alert-warning';
+				break;
+			case 6:
+				$errmsg = "You've Logged out";
+				$etype = 'alert-success';
+				break;
 			default:
 				$errmsg ='';
 				break;
 		}
 	}
+
 
 
 ?>
@@ -57,9 +68,14 @@
 </head>
 <body class="w3-light-gray">
 	<div class="wrapper">
-		<div class="header text-center container-fluid">
-			<img src="bin/img/oico.png" alt="oico">
+		<div class="header text-center container-fluid" style="padding-top: 85px;">
+			<img src="bin/img/logo_128.gif" alt="oico">
 		</div>
+		<?php if ($errmsg != '') { ?>
+		<div class="login-box container-fluid alert <?php echo $etype; ?>">
+			<?php echo $errmsg; ?>
+		</div>
+		<?php } ?>
 		<div class="login-box w3-white center-block container-fluid">
 			<div class="header text-center container-fluid">
 				<h2>PRESERVATION DATABASE</h2>
