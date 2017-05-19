@@ -109,7 +109,7 @@
 	function plan_next_period ($base_period,$target_period){ //plans next inspection period base on last period
 		$r = 0;
 		$mysqli = pr_connect();
-		$sql = "SELECT i.Ins_planEQID, i.Ins_plandate, i.Ins_planperiod, p.INTERVAL FROM ins_plan i inner join inspection_period p on i.ins_planEQID = p.EQID where i.Ins_planperiod = ".$base_period.";";
+		$sql = "SELECT i.Ins_planEQID, i.Ins_plandate, i.Ins_planperiod, p.INS_INTERVAL FROM ins_plan i inner join inspection_period p on i.ins_planEQID = p.EQID where i.Ins_planperiod = ".$base_period.";";
 		$base_plan = $mysqli->query($sql);
 
 		while ($row = $base_plan->fetch_assoc()) {
@@ -118,7 +118,7 @@
 			link: http://php.net/manual/en/datetime.add.php*/
 
 			$new_plan_date = new DateTime($row['Ins_plandate']);
-			$new_plan_date-> add(new DateInterval('P'.$row['INTERVAL'].'D'));
+			$new_plan_date-> add(new DateInterval('P'.$row['INS_INTERVAL'].'D'));
 
 			if (($d = add_new_inspection($row['Ins_planEQID'],$target_period, $new_plan_date->format('Y/m/d'))) > 0) {
 				$r += $d; 
@@ -134,20 +134,30 @@
 
 
 	function plan_next_period_d ($target_period,$first_day){  //plans next period base on a given date
-		$pdo = pdo_connect();
-		$sql = "SELECT EQID, INTERVAL, STARTDAY FROM inspection_period";
-		$result = $pdo -> query($sql);
-		echo $result->num_rows;
+		$r = 0;
+		$first_day = new DateTime($first_day);
+		$end_day = $first_day->add(new DateInterval('P30D'));
+		$mysqli = pr_connect();
+		$sql = "SELECT EQID, INS_INTERVAL, STARTDAY FROM inspection_period";
+		$result = $mysqli->query($sql);
 		while ($row = $result->fetch_assoc()){
-			$new_plan_date = new DateTime($first_day);
-			$new_plan_date-> add(new DateInterval('P'.$row['INTERVAL'].'D'));
-
+			$new_plan_date = $first_day-> add(new DateInterval('P'.$row['STARTDAY'].'D'));
 			if (($d = add_new_inspection($row['EQID'],$target_period, $new_plan_date->format('Y/m/d'))) > 0) {
 				$r += $d; 
 			}
 			else{
 				die($d);
 			}
-		}
+			while ($new_plan_date < $end_day){
+				$new_plan_date = $first_day-> add(new DateInterval('P'.$row['INS_INTERVAL'].'D'));
+				if (($d = add_new_inspection($row['EQID'],$target_period, $new_plan_date->format('Y/m/d'))) > 0) {
+					$r += $d; 
+				}
+				else{
+					die($d);
+				} //end else
+			}
+		} // end while
+	return $r;	
 
 	}

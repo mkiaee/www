@@ -1,3 +1,6 @@
+connection:
+  ☐ pdo
+
 Dashboard Page:
   ☐ weather widget
   ☐ progress bars
@@ -8,4 +11,6 @@ Work Order:
 
 
 functions:
-  ☐ plan next periods
+  plan next periods:
+    ☐ see if is possible to get the progress of while loop?
+    ☐ increase the max time out time
