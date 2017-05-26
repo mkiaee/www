@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"en",
+				"end_day"
+			],
+			[
+				"Date",
+				"DateInterval"
+			],
+			[
+				"ne",
+				"new"
+			],
+			[
 				"conn",
 				"connection"
 			],
@@ -502,18 +514,6 @@
 			[
 				"over",
 				"overflow-x"
-			],
-			[
-				"id",
-				"idIns_plan"
-			],
-			[
-				"vendo",
-				"VENDOR_NAME"
-			],
-			[
-				"qt",
-				"QTY"
 			]
 		]
 	},
@@ -523,16 +523,26 @@
 			"file": "include/functions.php",
 			"settings":
 			{
-				"buffer_size": 4350,
+				"buffer_size": 4734,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 243 files for \"INTERVAL\" (case sensitive)\n\nD:\\www\\include\\functions.php:\n  110  \t\t$r = 0;\n  111  \t\t$mysqli = pr_connect();\n  112: \t\t$sql = \"SELECT i.Ins_planEQID, i.Ins_plandate, i.Ins_planperiod, p.INTERVAL FROM ins_plan i inner join inspection_period p on i.ins_planEQID = p.EQID where i.Ins_planperiod = \".$base_period.\";\";\n  113  \t\t$base_plan = $mysqli->query($sql);\n  114  \n  ...\n  119  \n  120  \t\t\t$new_plan_date = new DateTime($row['Ins_plandate']);\n  121: \t\t\t$new_plan_date-> add(new DateInterval('P'.$row['INTERVAL'].'D'));\n  122  \n  123  \t\t\tif (($d = add_new_inspection($row['Ins_planEQID'],$target_period, $new_plan_date->format('Y/m/d'))) > 0) {\n  ...\n  136  \tfunction plan_next_period_d ($target_period,$first_day){  //plans next period base on a given date\n  137  \t\t$mysqli = pr_connect();\n  138: \t\t$sql = \"SELECT EQID, INTERVAL, STARTDAY FROM inspection_period\";\n  139  \t\t$result = $mysqli->query($sql);\n  140  \t\techo \"numrow:\".$result->num_rows;\n  141  \t\twhile ($row = $result->fetch_assoc()){\n  142  \t\t\t$new_plan_date = new DateTime($first_day);\n  143: \t\t\t$new_plan_date-> add(new DateInterval('P'.$row['INTERVAL'].'D'));\n  144  \n  145  \t\t\tif (($d = add_new_inspection($row['EQID'],$target_period, $new_plan_date->format('Y/m/d'))) > 0) {\n\n4 matches in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 1286,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
 			}
 		},
 		{
 			"file": "include/connect-db.php",
 			"settings":
 			{
-				"buffer_size": 769,
+				"buffer_size": 375,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -541,20 +551,17 @@
 			"file": "test.php",
 			"settings":
 			{
-				"buffer_size": 87,
+				"buffer_size": 89,
 				"encoding": "UTF-8",
 				"line_ending": "Windows",
 				"name": "<?php"
 			}
 		},
 		{
-			"contents": "Dashboard Page:\n  ☐ weather widget\n  ☐ progress bars\n  ☐ recent event\nEquipment List:\n  ☐ Build the New One\nWork Order:\n\n\nfunctions:\n  plan next periods:\n    ☐ see if is possible to get the progress of while loop?\n    ☐ increase the max time out time\n",
 			"file": "TODO.todo",
-			"file_size": 174,
-			"file_write_time": 131395790253879000,
 			"settings":
 			{
-				"buffer_size": 251,
+				"buffer_size": 272,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -810,15 +817,19 @@
 		"height": 117.0,
 		"where_history":
 		[
+			"D:\\www",
 			"<open folders>",
 			"D:\\AppacheWebPages\\Preservation"
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"INTERVAL",
+			"$pdo ",
+			"pdo",
 			"`",
 			"EQID",
 			"`inspection_period`.",
@@ -943,10 +954,7 @@
 			"eee",
 			"707070",
 			"curs",
-			"w3-sidenav",
-			"w3-contai",
-			"side",
-			"verify"
+			"w3-sidenav"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -976,15 +984,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4350,
+						"buffer_size": 4734,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3308,
-								3308
+								4731,
+								4731
 							]
 						],
 						"settings":
@@ -993,7 +1001,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1508.0,
+						"translation.y": 1794.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1001,24 +1009,54 @@
 				},
 				{
 					"buffer": 1,
-					"file": "include/connect-db.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 769,
+						"buffer_size": 1286,
 						"regions":
 						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										209,
+										217
+									],
+									[
+										524,
+										532
+									],
+									[
+										843,
+										851
+									],
+									[
+										1130,
+										1138
+									]
+								],
+								"scope": ""
+							}
 						},
 						"selection":
 						[
 							[
-								765,
-								765
+								529,
+								529
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1029,19 +1067,47 @@
 				},
 				{
 					"buffer": 2,
-					"file": "test.php",
+					"file": "include/connect-db.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 87,
+						"buffer_size": 375,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								87,
-								87
+								374,
+								374
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "test.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 89,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								71,
+								71
 							]
 						],
 						"settings":
@@ -1057,20 +1123,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "TODO.todo",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 251,
+						"buffer_size": 272,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								250,
-								250
+								19,
+								19
 							]
 						],
 						"settings":
@@ -1084,7 +1150,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1133,7 +1199,7 @@
 	"project": "PreservationR2.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
