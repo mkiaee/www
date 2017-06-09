@@ -4,16 +4,72 @@
 		"selected_items":
 		[
 			[
+				"pla",
+				"planprevios"
+			],
+			[
+				"fa",
+				"faElement"
+			],
+			[
+				"col",
+				"col-sm-8"
+			],
+			[
+				"bo",
+				"button"
+			],
+			[
+				"e",
+				"event"
+			],
+			[
+				"su",
+				"submit"
+			],
+			[
+				"date",
+				"datepicker"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"i",
+				"id\tAttr"
+			],
+			[
+				"dat",
+				"datetime"
+			],
+			[
+				"ne",
+				"new_plan_date"
+			],
+			[
+				"f",
+				"first_day"
+			],
+			[
+				"end",
+				"end_day"
+			],
+			[
+				"Dat",
+				"DateTime"
+			],
+			[
+				"php",
+				"phpinfo"
+			],
+			[
 				"en",
 				"end_day"
 			],
 			[
 				"Date",
 				"DateInterval"
-			],
-			[
-				"ne",
-				"new"
 			],
 			[
 				"conn",
@@ -76,10 +132,6 @@
 				"return"
 			],
 			[
-				"pla",
-				"plan_date"
-			],
-			[
 				"into",
 				"INTO"
 			],
@@ -98,10 +150,6 @@
 			[
 				"br",
 				"break"
-			],
-			[
-				"e",
-				"errmsg"
 			],
 			[
 				"w_in",
@@ -158,10 +206,6 @@
 			[
 				"act",
 				"action-type"
-			],
-			[
-				"col",
-				"col-sm-10"
 			],
 			[
 				"col-sm",
@@ -292,10 +336,6 @@
 				"min-height"
 			],
 			[
-				"bo",
-				"border-style"
-			],
-			[
 				"bac",
 				"background-color"
 			],
@@ -306,10 +346,6 @@
 			[
 				"perio",
 				"Ins_planperiod"
-			],
-			[
-				"php",
-				"php"
 			],
 			[
 				"for",
@@ -460,10 +496,6 @@
 				"clickable-row"
 			],
 			[
-				"dat",
-				"data"
-			],
-			[
 				"moda",
 				"modal"
 			],
@@ -482,38 +514,6 @@
 			[
 				"Ta",
 				"TAG_NO"
-			],
-			[
-				"res",
-				"result"
-			],
-			[
-				"Eq",
-				"EQUIPMENT_ID"
-			],
-			[
-				"get",
-				"GET"
-			],
-			[
-				"eqid",
-				"Ins_planEQID"
-			],
-			[
-				"cl",
-				"clickable-row"
-			],
-			[
-				"P",
-				"PreviousDay"
-			],
-			[
-				"pad",
-				"padding-bottom"
-			],
-			[
-				"over",
-				"overflow-x"
 			]
 		]
 	},
@@ -523,19 +523,35 @@
 			"file": "include/functions.php",
 			"settings":
 			{
-				"buffer_size": 4734,
+				"buffer_size": 4731,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Searching 243 files for \"INTERVAL\" (case sensitive)\n\nD:\\www\\include\\functions.php:\n  110  \t\t$r = 0;\n  111  \t\t$mysqli = pr_connect();\n  112: \t\t$sql = \"SELECT i.Ins_planEQID, i.Ins_plandate, i.Ins_planperiod, p.INTERVAL FROM ins_plan i inner join inspection_period p on i.ins_planEQID = p.EQID where i.Ins_planperiod = \".$base_period.\";\";\n  113  \t\t$base_plan = $mysqli->query($sql);\n  114  \n  ...\n  119  \n  120  \t\t\t$new_plan_date = new DateTime($row['Ins_plandate']);\n  121: \t\t\t$new_plan_date-> add(new DateInterval('P'.$row['INTERVAL'].'D'));\n  122  \n  123  \t\t\tif (($d = add_new_inspection($row['Ins_planEQID'],$target_period, $new_plan_date->format('Y/m/d'))) > 0) {\n  ...\n  136  \tfunction plan_next_period_d ($target_period,$first_day){  //plans next period base on a given date\n  137  \t\t$mysqli = pr_connect();\n  138: \t\t$sql = \"SELECT EQID, INTERVAL, STARTDAY FROM inspection_period\";\n  139  \t\t$result = $mysqli->query($sql);\n  140  \t\techo \"numrow:\".$result->num_rows;\n  141  \t\twhile ($row = $result->fetch_assoc()){\n  142  \t\t\t$new_plan_date = new DateTime($first_day);\n  143: \t\t\t$new_plan_date-> add(new DateInterval('P'.$row['INTERVAL'].'D'));\n  144  \n  145  \t\t\tif (($d = add_new_inspection($row['EQID'],$target_period, $new_plan_date->format('Y/m/d'))) > 0) {\n\n4 matches in 1 file\n",
+			"file": "pages/plan.php",
 			"settings":
 			{
-				"buffer_size": 1286,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
+				"buffer_size": 4583,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/preserve.css",
+			"settings":
+			{
+				"buffer_size": 3532,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scripts/prscripts.js",
+			"settings":
+			{
+				"buffer_size": 1012,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -548,10 +564,19 @@
 			}
 		},
 		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 2237,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "test.php",
 			"settings":
 			{
-				"buffer_size": 89,
+				"buffer_size": 115,
 				"encoding": "UTF-8",
 				"line_ending": "Windows",
 				"name": "<?php"
@@ -575,9 +600,13 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "st p",
+		"last_filter": "ins",
 		"selected_items":
 		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
 			[
 				"st p",
 				"Set Syntax: PHP"
@@ -601,10 +630,6 @@
 			[
 				"git:",
 				"Git: Status"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
 			],
 			[
 				"git com",
@@ -705,12 +730,17 @@
 	[
 		"/D/www",
 		"/D/www/bin",
-		"/D/www/bin/img",
-		"/D/www/include"
+		"/D/www/css",
+		"/D/www/include",
+		"/D/www/pages",
+		"/D/www/scripts"
 	],
 	"file_history":
 	[
+		"/D/www/pages/pln.php",
+		"/D/www/pages/sidenav.php",
 		"/D/PHP7/php.ini",
+		"/D/www/PreservationR2.sublime-project",
 		"/D/Apache24/conf/httpd.conf",
 		"/C/Users/Mesalli/AppData/Roaming/Sublime Text 3/Packages/User/PlainTasks.sublime-settings",
 		"/C/Users/Mesalli/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
@@ -827,6 +857,15 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"success",
+			"info",
+			"planasprevios",
+			"5",
+			"planasprevios",
+			"name",
+			"\t<div class=\"form-section\">\n\t\t\t\n\t\t</div>\n\t",
+			"zend",
+			"extens",
 			"INTERVAL",
 			"$pdo ",
 			"pdo",
@@ -945,16 +984,7 @@
 			"functionname",
 			"get_all_eq_list_td",
 			"margin:auto",
-			"\t\t\t\t\t\t\n",
-			"s2",
-			"w3-top",
-			"w3-card",
-			"=",
-			"active",
-			"eee",
-			"707070",
-			"curs",
-			"w3-sidenav"
+			"\t\t\t\t\t\t\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -975,7 +1005,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -984,15 +1014,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4734,
+						"buffer_size": 4731,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4731,
-								4731
+								3947,
+								3947
 							]
 						],
 						"settings":
@@ -1001,62 +1031,33 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1794.0,
+						"translation.y": 1459.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "pages/plan.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1286,
+						"buffer_size": 4583,
 						"regions":
 						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										209,
-										217
-									],
-									[
-										524,
-										532
-									],
-									[
-										843,
-										851
-									],
-									[
-										1130,
-										1138
-									]
-								],
-								"scope": ""
-							}
 						},
 						"selection":
 						[
 							[
-								529,
-								529
+								1482,
+								1482
 							]
 						],
 						"settings":
 						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ \t].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1067,6 +1068,64 @@
 				},
 				{
 					"buffer": 2,
+					"file": "css/preserve.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								386,
+								386
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "scripts/prscripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1012,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								760,
+								760
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "include/connect-db.php",
 					"semi_transient": false,
 					"settings":
@@ -1090,24 +1149,53 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "test.php",
+					"buffer": 5,
+					"file": "index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 89,
+						"buffer_size": 2237,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								71,
-								71
+								1442,
+								460
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 165.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "test.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								47
 							]
 						],
 						"settings":
@@ -1119,11 +1207,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 7,
 					"file": "TODO.todo",
 					"semi_transient": false,
 					"settings":
@@ -1135,8 +1223,8 @@
 						"selection":
 						[
 							[
-								19,
-								19
+								272,
+								272
 							]
 						],
 						"settings":
@@ -1150,9 +1238,19 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 7,
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -1171,18 +1269,32 @@
 			[
 				0,
 				0,
-				1,
+				2,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
+			0.7,
 			1.0
 		]
 	},
@@ -1192,6 +1304,10 @@
 		"height": 0.0
 	},
 	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.xdebug":
 	{
 		"height": 100.0
 	},
@@ -1232,6 +1348,104 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"15":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"17":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"18":
+				{
+					"group": 0,
+					"index": 2
+				},
+				"19":
+				{
+					"group": 0,
+					"index": 3
+				},
+				"21":
+				{
+					"group": 0,
+					"index": 4
+				},
+				"24":
+				{
+					"group": 0,
+					"index": 5
+				},
+				"27":
+				{
+					"group": 2,
+					"index": 1
+				},
+				"28":
+				{
+					"group": 1,
+					"index": 0
+				},
+				"29":
+				{
+					"group": 2,
+					"index": 0
+				},
+				"30":
+				{
+					"group": 1,
+					"index": 1
+				},
+				"32":
+				{
+					"group": 0,
+					"index": 6
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						2,
+						1
+					],
+					[
+						0,
+						1,
+						1,
+						2
+					],
+					[
+						1,
+						1,
+						2,
+						2
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					0.584615384615,
+					1.0
+				]
+			}
+		}
 	},
 	"show_minimap": true,
 	"show_open_files": false,

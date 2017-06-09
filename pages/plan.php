@@ -24,7 +24,7 @@ $result = mysqli_query($conn,$sql);
 			<div class="col-sm-10 text-center">
 				<h1><i class="fa fa-flag">  </i><span>  <?php echo date('l d F Y',$day); ?></span></h1>
 			</div>	
-			<div class="col-sm-1 no-padding" style="margin-top: 12px;"><a id="NextDay" class="btn btn-default" href="index.php?page=plan&day=<?php echo date('Y/m/d',strtotime("tomorrow",$day)); ?>" >Next day</a></div>	
+			<div class="col-sm-1 no-padding" style="margin-top: 12px;"><a id="NextDay" class="btn btn-default" href="index.php?page=plan&day=<?php echo htmlspecialchars(date('Y/m/d',strtotime("tomorrow",$day))); ?>" >Next day</a></div>	
 			
 		</div>
 	</div>

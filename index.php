@@ -13,12 +13,8 @@ if ($_SERVER['REQUEST_METHOD'] == "GET") {
 				$args = array('day'=>$_GET['day']);
 				$args = json_encode($args);
 				break;
-			case 'workorder':
-				$args = "'home'";
-				break;
 			
 			default:
-				$Page = "overview";
 				$args = '""';
 				break;
 		}

@@ -21,3 +21,12 @@ function w3_close() {
     mySidenav.style.display = "none";
     overlayBg.style.display = "none";
 }
+function datePickerInitialize() {
+    var date_input = $(".datepicker-input"); //our date input has the name "date"
+    var options ={
+            format: 'yyyy/mm/dd',
+            orientation: "bottom auto",
+            todayHighlight: true,
+            autoclose: true };
+    date_input.datepicker(options);
+}

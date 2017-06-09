@@ -136,26 +136,24 @@
 	function plan_next_period_d ($target_period,$first_day){  //plans next period base on a given date
 		$r = 0;
 		$end_day = new DateTime($first_day);
-		$new_plan_date = $first_day = new DateTime($first_day);
-		
 		$end_day -> add(new DateInterval('P30D'));
 		$mysqli = pr_connect();
 		$sql = "SELECT EQID, INS_INTERVAL, STARTDAY FROM inspection_period";
 		$result = $mysqli->query($sql);
 		while ($row = $result->fetch_assoc()){
-			$new_plan_date = $first_day;
+			$new_plan_date = new DateTime($first_day);
 			$new_plan_date -> add(new DateInterval('P'.$row['STARTDAY'].'D'));
 			if (($d = add_new_inspection($row['EQID'],$target_period, $new_plan_date->format('Y/m/d'))) > 0) {
-				$r += $d; 
-			while ($new_plan_date < $end_day){
-				$new_plan_date -> add(new DateInterval('P'.$row['INS_INTERVAL'].'D'));
-				if (($d = add_new_inspection($row['EQID'],$target_period, $new_plan_date->format('Y/m/d'))) > 0) {
-					$r += $d; 
+				$r += $d;
+
+				while ($new_plan_date-> add(new DateInterval('P'.$row['INS_INTERVAL'].'D')) < $end_day){
+					if (($d = add_new_inspection($row['EQID'],$target_period, $new_plan_date->format('Y/m/d'))) > 0) {
+						$r += $d; 
+					}
+					else{
+						die($d);
+					} //end else
 				}
-				else{
-					die($d);
-				} //end else
-			}
 			}
 			else{
 				die($d);
