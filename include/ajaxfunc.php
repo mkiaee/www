@@ -31,7 +31,12 @@
             case 'newWorkOrder':
                 $aResult['result'] = newWorkOrder($_POST['arguments']);
                 break;
-
+            case 'plan_next_period':
+                $aResult['result'] = plan_next_period($_POST['arguments'][0],$_POST['arguments'][1]);
+                break;
+            case 'plan_next_period_d': 
+                $aResult['result'] = plan_next_period_d($_POST['arguments'][0],$_POST['arguments'][1]);
+                break;
     	    default:
     	       $aResult['error'] = 'Not found function '.$_POST['functionname'].'!';
     	       break;

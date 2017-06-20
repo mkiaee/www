@@ -21,6 +21,12 @@ function w3_close() {
     mySidenav.style.display = "none";
     overlayBg.style.display = "none";
 }
+
+
+/*
+will initialize all datepicker inputs
+*/
+
 function datePickerInitialize() {
     var date_input = $(".datepicker-input"); //our date input has the name "date"
     var options ={
@@ -29,4 +35,12 @@ function datePickerInitialize() {
             todayHighlight: true,
             autoclose: true };
     date_input.datepicker(options);
+}
+
+/*
+convert a button text to please wait status with a fa-spinner
+*/
+
+function processButton(aButton){
+    $(aButton).html("Please Wait   <span class='fa fa-spinner fa-spin'></span>");
 }

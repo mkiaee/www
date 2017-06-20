@@ -3,36 +3,7 @@
 
 
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Preservation Database</title>
-	<meta charset="utf-8">
-	<meta name="veiwport" content="width=device-width, initial-scale=1">
-	<base href="/">
-	<!-- jquery -->
-	<script src="vendor/jQuery/jquery-3.1.1.min.js"></script>
 
-	<!-- Bootstrap -->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css">
-	<script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-
-	<!-- bootstrap datepicker -->
-	<link rel="stylesheet" type="text/css" href="vendor/bsdatepicker/css/bootstrap-datepicker.min.css">
-	<script src = "vendor/bsdatepicker/js/bootstrap-datepicker.min.js"></script>
-
-	<!-- font awsome -->
-	<link rel="stylesheet" href="vendor/font-awsome/css/font-awesome.min.css">
-	<!-- w3 -->
-	<link rel="stylesheet" type="text/css" href="vendor/w3/css/w3.css">
-
-
-	<link rel="stylesheet" type="text/css" href="css/preserve.css">
-	
-	<script type="text/javascript" src=scripts/prscripts.js></script>
-</head>
-<body>
-	
 <div class="container-fluid">
 	<div class="col-sm-8">Current Period</span></div>
 </div>
@@ -58,14 +29,60 @@
 			<input class="datepicker-input" type="text" id="first-day" placeholder="Pick a Date">
 		</div>
 		<div class="col-sm-4">
-			<button  type="button" class="btn btn-default">Submit <span class="fa fa-arrow-right"></span></button>
+			<button  type="button" class="btn btn-default" onclick="planNextBaseOnDate(this)">Submit <span class="fa fa-arrow-right"></span></button>
 		</div>
 	</div>
 </div>
 <script>
 	function planprevios(b) {
 		$("input, select, button").prop("disabled",true);
-		$(b).html("Please Wait   <span class='fa fa-spinner fa-spin'></span>");
+		processButton(b);
+		$.ajax({
+			type: "POST",
+			url: "include/ajaxfunc.php",
+			dataType: "JSON",
+			data: {functionname:"plan_next_period",
+					arguments: {
+						// $("#base-period").val(),4
+					},
+			success:function(){},
+			fail: function(){}
+		}
+
+		});
 	}
+
+	function planNextBaseOnDate(b){
+		$("input, select, button").prop("disabled",true);
+		var fday = $('#first-day').val();
+		processButton(b);
+		$.ajax({
+			type: "POST",
+			url: "include/ajaxfunc.php",
+			dataType: "JSON",
+			data: {functionname:"plan_next_period_d",
+					arguments: [1,fday]},
+			success:function(obj,textstatus,xhr){
+				if (!('error' in obj)) {
+					$(b).removeClass('btn-default');
+					$(b).addClass('btn-success');
+					$(b).html(obj.result+' Inspection Planed <span class="fa fa-check"></span>');
+				} else {
+					var w = window.open();
+					$(w.document.body).html(obj.error);
+					console.log(obj.error);
+				}
+			},
+			fail: function(){},
+			error: function(xhr, ajaxOptions, te) {
+				console.log(xhr.status),
+				console.log(xhr.responseText)
+				}
+		
+
+		});
+	}
+	$(document).ready(function(){
+		datePickerInitialize();
+	})
 </script>
-</body>
