@@ -15,7 +15,7 @@
 <!-- ajax call result	 -->
 <div class="w3-row-padding" id="dailysummary"></div>
 
-<div class="w3-row-padding">
+<div class="w3-row-padding hidden">
 	<div class="container-fluid">
 		<h2>Inspection Progress</h2>
 		<i>Today</i>

@@ -3,7 +3,7 @@
 
 
 ?>
-
+<link rel="stylesheet" href="vendor/dropzone/dropzone.css">
 <div class="container-fluid">
 	<div class="col-sm-8">Current Period</span></div>
 </div>

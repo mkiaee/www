@@ -1,5 +1,4 @@
 <?php
-	// Yay! I am using Json but i don't know why :)
     header('Content_Type: application/json');
     require_once("functions.php");
     // an array to store the results and errors
@@ -36,6 +35,9 @@
                 break;
             case 'plan_next_period_d': 
                 $aResult['result'] = plan_next_period_d($_POST['arguments'][0],$_POST['arguments'][1]);
+                break;
+            case 'packageList':
+                $aResult['result'] = packageList($_POST['arguments']);
                 break;
     	    default:
     	       $aResult['error'] = 'Not found function '.$_POST['functionname'].'!';

@@ -135,7 +135,7 @@ loading...
 				console.log(xhr.status),
 				console.log(xhr.responseText)
 				}
-					    });
+			});
 
     }
     function validateLogsheet(){

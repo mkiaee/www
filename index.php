@@ -32,7 +32,9 @@ if ($_SERVER['REQUEST_METHOD'] == "GET") {
 	<base href="/">
 	<!-- jquery -->
 	<script src="vendor/jQuery/jquery-3.1.1.min.js"></script>
-
+	
+	<!-- Drop Zone -->
+	
 	<!-- Bootstrap -->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css">
 	<script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
@@ -76,5 +78,6 @@ if ($_SERVER['REQUEST_METHOD'] == "GET") {
 	})
 
 </script>
+	
 </body>
 </html>

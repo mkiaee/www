@@ -1,3 +1,4 @@
+
 @import url('../vendor/raleway/raleway-webfont.css');
 html,body,h1,h2,h3,h4,h5,h6 {font-family: 'Raleway Webfont'}
 
@@ -7,22 +8,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: 'Raleway Webfont'}
 	background-color:#a50580;
 	color:#000;
 }
-input.radiocheck{
-	left: -999px;
-	position: absolute;
-}
-input.radiocheck + label {
-	cursor: pointer;
-	background-color: rgba(66,68,66,0.18);
-	border-style: solid;
-	border-color: #797979;
-	border-width: 1px;
-	border-radius: 2px;
-	display: flex;
-	min-height: 20px;
-	min-width: 20px;
 
-}
 
 /*padding*/
 .no-padding{
@@ -36,7 +22,24 @@ input.radiocheck + label {
 	margin-bottom: 10px;
 }
 
+input.radiocheck{
+	left: -999px;
+	position: absolute;
+}
+input.radiocheck + label {
+	cursor: pointer;
+	background-color: rgba(66,68,66,0.18);
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 2px;
+	border-radius: 4px;
+	display: inline-flex;
+	min-height: 20px;
+	min-width: 20px;
+	padding-left: 5px;
+	padding-right: 5px; 
 
+}
 input.radiocheck + label > i{
 	display: none !important;
 	margin:auto;
@@ -51,13 +54,13 @@ input.radiocheck:checked + label > i{
 
 
 .pr-main{
-	margin-left: 250px;
-	margin-top: 48px;
+	margin-left: 205px;
+	margin-top: 45px;
 }
 
 .pr-side-nav{
 	box-shadow: 2px 0 5px 0 #999;
-	width: 250px;
+	width: 200px;
 	z-index: 5;
 }
 
@@ -78,6 +81,7 @@ input.radiocheck:checked + label > i{
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .pr-table tbody tr:hover td{
 	background-color: #a3b4c5;
 	cursor: pointer;
@@ -87,6 +91,8 @@ input.radiocheck:checked + label > i{
 	background-color: #b3b4c5;
 	cursor: pointer;
 }
+
+
 
 #search-result{
 	max-height: 250px;
@@ -123,83 +129,99 @@ input.radiocheck:checked + label > i{
 
 }
 
+/*Print Style*/
+@media print {
+	@page {
+		margin: 0.5cm;
+	}
+	#mainContent {
+		margin: 0.5cm;
+	}
+	nav , header ,.btn{
+		display: none;
+	}
+
+}
+
 
 
 /*loaders*/
 .loader-container{
 	position: absolute;
-	display: none;
+	
 	z-index: 3;
 	width: 100%;
 	height: 100%;
-	border-radius: 20px;
-	background-color: rgba(0,0,0,0.2);
+
+
 }
 
-.loader,
-.loader:before,
-.loader:after {
-  border-radius: 50%;
-}
 .loader {
-  color: #ffffff;
-  font-size: 11px;
-  text-indent: -99999em;
-  margin: 55px auto;
+  color: #ff0080;
+  font-size: 20px;
+  margin: 100px auto;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
   position: relative;
-  width: 10em;
-  height: 10em;
-  box-shadow: inset 0 0 0 1em;
+  text-indent: -9999em;
+  -webkit-animation: load4 1.3s infinite linear;
+  animation: load4 1.3s infinite linear;
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
   transform: translateZ(0);
 }
-.loader:before,
-.loader:after {
-  position: absolute;
-  content: '';
-}
-.loader:before {
-  width: 5.2em;
-  height: 10.2em;
-  background: #0dc5c1;
-  border-radius: 10.2em 0 0 10.2em;
-  top: -0.1em;
-  left: -0.1em;
-  -webkit-transform-origin: 5.2em 5.1em;
-  transform-origin: 5.2em 5.1em;
-  -webkit-animation: load2 2s infinite ease 1.5s;
-  animation: load2 2s infinite ease 1.5s;
-}
-.loader:after {
-  width: 5.2em;
-  height: 10.2em;
-  background: #0dc5c1;
-  border-radius: 0 10.2em 10.2em 0;
-  top: -0.1em;
-  left: 5.1em;
-  -webkit-transform-origin: 0px 5.1em;
-  transform-origin: 0px 5.1em;
-  -webkit-animation: load2 2s infinite ease;
-  animation: load2 2s infinite ease;
-}
-@-webkit-keyframes load2 {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+@-webkit-keyframes load4 {
+  0%,
   100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+    box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+  }
+  12.5% {
+    box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  25% {
+    box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  37.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  50% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  62.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+  }
+  75% {
+    box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
   }
 }
-@keyframes load2 {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+@keyframes load4 {
+  0%,
   100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+    box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+  }
+  12.5% {
+    box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  25% {
+    box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  37.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  50% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  62.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+  }
+  75% {
+    box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
   }
 }

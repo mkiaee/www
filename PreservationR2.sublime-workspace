@@ -4,12 +4,120 @@
 		"selected_items":
 		[
 			[
-				"form",
-				"form-control-inline"
+				"max",
+				"max-height"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"row",
+				"rowCount\t(pclasses.php)"
+			],
+			[
+				"la",
+				"loader"
+			],
+			[
+				"app",
+				"append\t(inspectionresult.php)"
+			],
+			[
+				"se",
+				"searchResult"
+			],
+			[
+				"sea",
+				"search\t(search.php)"
+			],
+			[
+				"in",
+				"include\t(inspectionresult.php)"
+			],
+			[
+				"V",
+				"VENDOR_NAME\t(pclasses.php)"
+			],
+			[
+				"Q",
+				"QTY\t(pclasses.php)"
+			],
+			[
+				"EQ",
+				"EQ_STATUS_D\t(eqlist.php)"
+			],
+			[
+				"T",
+				"TAG_NO\t(eqlist.php)"
+			],
+			[
+				"EQUI",
+				"EQUIPMENT_TYPE_D\t(eqlist.php)"
+			],
+			[
+				"j",
+				"json_encode\t(inspectionresult.php)"
+			],
+			[
+				"res",
+				"resultCtrl"
+			],
+			[
+				"search",
+				"searchApp"
+			],
+			[
+				"Con",
+				"Content_Type\t(ajaxfunc.php)"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"is",
+				"isset\t(ajaxfunc.php)"
+			],
+			[
+				"va",
+				"val\t(inspectionresult.php)"
+			],
+			[
+				"do",
+				"doSearch"
+			],
+			[
+				"fun",
+				"function\t(functions.php)"
 			],
 			[
 				"co",
-				"col-sm-offset-1"
+				"container-fluid"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"sq",
+				"sql\t(functions.php)"
+			],
+			[
+				"pr",
+				"pr_connect\t(functions.php)"
+			],
+			[
+				"conn",
+				"connect-db.php\t(functions.php)"
+			],
+			[
+				"req",
+				"require_once\t(functions.php)"
+			],
+			[
+				"s",
+				"sQuery"
 			],
 			[
 				"no",
@@ -66,10 +174,6 @@
 			[
 				"pla",
 				"plan_next_period"
-			],
-			[
-				"fu",
-				"functionname\t(inspectionresult.php)"
 			],
 			[
 				"b",
@@ -134,10 +238,6 @@
 			[
 				"Date",
 				"DateInterval"
-			],
-			[
-				"conn",
-				"connection"
 			],
 			[
 				"D",
@@ -224,16 +324,8 @@
 				"eq_id"
 			],
 			[
-				"fun",
-				"function"
-			],
-			[
 				"margin",
 				"margin-bottom"
-			],
-			[
-				"req",
-				"req1\trequire_once …"
 			],
 			[
 				"ar",
@@ -248,10 +340,6 @@
 				"WHERE"
 			],
 			[
-				"pr",
-				"pr_connect"
-			],
-			[
 				"act",
 				"action-type"
 			],
@@ -264,16 +352,8 @@
 				"input-group"
 			],
 			[
-				"in",
-				"input-group"
-			],
-			[
 				"sess",
 				"session_start"
-			],
-			[
-				"s",
-				"style\tAttr"
 			],
 			[
 				"clo",
@@ -364,10 +444,6 @@
 				"rgba()"
 			],
 			[
-				"row",
-				"ROW_ID"
-			],
-			[
 				"val",
 				"value"
 			],
@@ -390,10 +466,6 @@
 			[
 				"for",
 				"foreach\tforeach …"
-			],
-			[
-				"is",
-				"isset"
 			],
 			[
 				"use",
@@ -420,10 +492,6 @@
 				"margin-left"
 			],
 			[
-				"max",
-				"max-width"
-			],
-			[
 				"padd",
 				"padding"
 			],
@@ -446,74 +514,6 @@
 			[
 				"u",
 				"userfname"
-			],
-			[
-				"json",
-				"json_encode"
-			],
-			[
-				"ove",
-				"overview"
-			],
-			[
-				"js",
-				"json_encode"
-			],
-			[
-				"ge",
-				"_GET"
-			],
-			[
-				"pag",
-				"Page"
-			],
-			[
-				"box",
-				"box-shadow"
-			],
-			[
-				"pos",
-				"position"
-			],
-			[
-				"acc",
-				"ACCTO"
-			],
-			[
-				"dr",
-				"dropdown-menu"
-			],
-			[
-				"th",
-				"th1"
-			],
-			[
-				"tes",
-				"testalert"
-			],
-			[
-				"dro",
-				"dropdown-toggle"
-			],
-			[
-				"d",
-				"dropdown"
-			],
-			[
-				"at",
-				"aTD"
-			],
-			[
-				"cur",
-				"cursor"
-			],
-			[
-				"ta",
-				"table"
-			],
-			[
-				"sub",
-				"Submit"
 			]
 		]
 	},
@@ -532,31 +532,20 @@
 			"file": "pages/eqlist.php",
 			"settings":
 			{
-				"buffer_size": 972,
+				"buffer_size": 1523,
 				"encoding": "UTF-8",
 				"line_ending": "Windows",
 				"name": "<?php"
 			}
 		},
 		{
-			"contents": "<?php\n/**\n* \n*/\nclass ClassName extends AnotherClass\n{\n\t\n\tfunction __construct(argument)\n\t{\n\t\t# code...\n\t}\n}",
 			"file": "include/search.php",
-			"file_size": 7,
-			"file_write_time": 131420015148994000,
 			"settings":
 			{
-				"buffer_size": 108,
+				"buffer_size": 1383,
 				"encoding": "UTF-8",
 				"line_ending": "Windows",
 				"name": "<?php"
-			}
-		},
-		{
-			"file": "css/preserve.css",
-			"settings":
-			{
-				"buffer_size": 3532,
-				"line_ending": "Windows"
 			}
 		},
 		{
@@ -572,25 +561,25 @@
 			"file": "include/ajaxfunc.php",
 			"settings":
 			{
-				"buffer_size": 1755,
+				"buffer_size": 1706,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "scripts/prscripts.js",
+			"file": "include/pclasses.php",
 			"settings":
 			{
-				"buffer_size": 1246,
+				"buffer_size": 1127,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "include/connect-db.php",
+			"file": "css/preserve.css",
 			"settings":
 			{
-				"buffer_size": 375,
+				"buffer_size": 3535,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -602,16 +591,6 @@
 				"buffer_size": 2237,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "test.php",
-			"settings":
-			{
-				"buffer_size": 115,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "<?php"
 			}
 		},
 		{
@@ -657,10 +636,10 @@
 			}
 		},
 		{
-			"contents": "",
+			"contents": "=> D:\\www\\include\\pclasses.php\n\t|+| 26\n",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 39,
 				"line_ending": "Windows",
 				"name": "Xdebug Breakpoint",
 				"read_only": true,
@@ -809,10 +788,15 @@
 		"/D/www/css",
 		"/D/www/include",
 		"/D/www/pages",
-		"/D/www/scripts"
+		"/D/www/scripts",
+		"/D/www/vendor/angularjs"
 	],
 	"file_history":
 	[
+		"/D/www/scripts/prscripts.js",
+		"/D/www/vendor/angularjs/angular.min.js",
+		"/D/www/test.php",
+		"/D/www/include/connect-db.php",
 		"/D/www/pages/plan.php",
 		"/D/www/pages/pln.php",
 		"/D/www/pages/sidenav.php",
@@ -832,7 +816,6 @@
 		"/D/www/include/functions.php",
 		"/D/www/css/preserve.css",
 		"/D/www/include/eqlist.php",
-		"/D/www/scripts/prscripts.js",
 		"/D/www/index.php",
 		"/D/www/pages/workorder.php",
 		"/D/AppacheWebPages/P2/pages/plan.php",
@@ -934,6 +917,23 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"'\"",
+			"key",
+			"sResult",
+			"]",
+			"$",
+			"EQUIPMENT_ID",
+			"}}",
+			"{{r.",
+			"{{",
+			"$",
+			"doSearch",
+			"span",
+			"=",
+			" =\"%'.$",
+			"`",
+			"`eq_extended_list`.`",
+			"\t\t\t\t`",
 			"label",
 			"discipline",
 			"button",
@@ -1044,24 +1044,7 @@
 			"hta",
 			"virtu",
 			"$aReturn",
-			"activ",
-			"php",
-			"inspectionResult",
-			"glyph",
-			"pr-table",
-			"em",
-			"content",
-			"pr_action",
-			"preservation",
-			"equipment_list",
-			"preservation",
-			"eq_extended_list",
-			"`",
-			"row",
-			"font-awsome",
-			"foreach",
-			"add",
-			"functionname"
+			"activ"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1082,7 +1065,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -1108,7 +1091,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 150.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
@@ -1120,15 +1103,44 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 972,
+						"buffer_size": 1523,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								103,
-								103
+								1447,
+								1447
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?php",
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 315.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "include/search.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								406,
+								406
 							]
 						],
 						"settings":
@@ -1144,64 +1156,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "include/search.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 108,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12,
-								12
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<?php",
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
 					"buffer": 3,
-					"file": "css/preserve.css",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 3532,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "pages/pln.php",
 					"semi_transient": false,
 					"settings":
@@ -1226,24 +1181,24 @@
 						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "include/ajaxfunc.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1755,
+						"buffer_size": 1706,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1464,
-								1568
+								5,
+								5
 							]
 						],
 						"settings":
@@ -1253,72 +1208,71 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 244.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "include/pclasses.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								248
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "scripts/prscripts.js",
+					"file": "css/preserve.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1246,
+						"buffer_size": 3535,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1059,
-								1059
+								1288,
+								1288
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 234.0,
+						"translation.y": 900.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "include/connect-db.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 375,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								374,
-								374
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
 					"file": "index.php",
 					"semi_transient": false,
 					"settings":
@@ -1330,8 +1284,8 @@
 						"selection":
 						[
 							[
-								1442,
-								460
+								714,
+								657
 							]
 						],
 						"settings":
@@ -1340,43 +1294,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 315.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "test.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 115,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								47,
-								47
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<?php",
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
+					"buffer": 8,
 					"file": "TODO.todo",
 					"semi_transient": false,
 					"settings":
@@ -1394,6 +1319,7 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/PlainTasks/tasks.hidden-tmTheme",
 							"plain_tasks_remain_time_phantoms":
 							[
 							],
@@ -1403,7 +1329,69 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 12,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 9,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
 					"type": "text"
 				}
 			]
@@ -1437,7 +1425,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -1445,49 +1433,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 39,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 13,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								39,
+								39
 							]
 						],
 						"settings":
@@ -1500,34 +1454,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
 					"type": "text"
 				}
 			]

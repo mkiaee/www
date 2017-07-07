@@ -162,3 +162,27 @@
 	return $r;	
 
 	}
+
+	// returns a list of packages
+	function packageList($filters = array()){
+		$mysqli = pr_connect();
+		$sql = "Select * from packages";
+		if (!(count($filters) == 0)) {
+			$sql .= ' where ';
+			foreach ($filters as $key => $value) {
+				$sql .= $key . '="' .$value . '"';
+			}
+		}
+		$result = $mysqli->query($sql);
+		$row = $result->fetch_all(MYSQLI_ASSOC);
+		return $row;
+	}
+
+	// returns a list of discipline
+	function disciplineList(){
+		$mysqli = pr_connect();
+		$sql = "Select * from discipline";
+		$result = $mysqli->query($sql);
+		$row = $result->fetch_all(MYSQLI_ASSOC);
+		return $row;
+	} 
