@@ -80,7 +80,7 @@ function callFunction (functionName,Data,successCallback,failCallback){
         dataType:'json',
         url:'/include/ajaxfunc.php',
         data: {functionname: functionName,arguments: Data},
-        success: successCallback,
+        success: function(obj,textstatus,xhr){successCallback(obj,textstatus,xhr)},
         fail: failCallback
     });
 }

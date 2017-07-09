@@ -28,7 +28,7 @@ if (login_check($mysqli)) {
 		<a href="/" class="pr-menu-item w3-padding"><i class="fa fa-dashboard"></i> Dashboard</a>
 		<a href="#" class="w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
 		<a href="/index.php?page=eqlist" class="pr-menu-item w3-padding" ><i class="fa fa-list"></i> List of Equipment</a>
-		<a href="/index.php?page=dailyreport" class="pr-menu-item w3-padding"><i class="fa fa-flag"></i> Daily Plan</a>
+		<a href="/index.php?page=dailyreport" class="pr-menu-item w3-padding"><i class="fa fa-flag"></i> Daily Report</a>
 		<a href="/index.php?page=analyticalreport" class="pr-menu-item w3-padding"><i class="fa fa-book"></i> Analytical Report</a>
 		<a href="/index.php?page=workorder" class="pr-menu-item w3-padding"> Work Order</a>
 		<!-- <a href="#" class="pr-menu-item w3-padding"> Log Sheet</a> -->

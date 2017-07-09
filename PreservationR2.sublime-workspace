@@ -4,6 +4,142 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"textstatus\t(dailyreport.php)"
+			],
+			[
+				"te",
+				"textstatus"
+			],
+			[
+				"DISCIPLINE_",
+				"DISCIPLINE_ID"
+			],
+			[
+				"el",
+				"else\t(functions.php)"
+			],
+			[
+				"DI",
+				"DISCIPLINE_ID\t(dailyreport.php)"
+			],
+			[
+				"PA",
+				"PACKAGE_CODE"
+			],
+			[
+				"gr",
+				"groupBy\t(pclasses.php)"
+			],
+			[
+				"fi",
+				"fieldList\t(pclasses.php)"
+			],
+			[
+				"filter",
+				"filters"
+			],
+			[
+				"fil",
+				"filterOprand"
+			],
+			[
+				"strl",
+				"str_lreplace"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"Ven",
+				"VENDOR_NAME"
+			],
+			[
+				"c",
+				"class='fa\t(prscripts.js)"
+			],
+			[
+				"ar",
+				"arguments\t(pln.php)"
+			],
+			[
+				"fu",
+				"functionName"
+			],
+			[
+				"op",
+				"opt"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"pa",
+				"packages"
+			],
+			[
+				"package",
+				"packageList"
+			],
+			[
+				"su",
+				"successCallback"
+			],
+			[
+				"aja",
+				"ajaxfunc.php\t(pln.php)"
+			],
+			[
+				"Di",
+				"DISCIPLINE_NAME\t(search.php)"
+			],
+			[
+				"di",
+				"discipline"
+			],
+			[
+				"dr",
+				"dropzone.css\t(dailyreport.php)"
+			],
+			[
+				"packa",
+				"packageList\t(functions.php)"
+			],
+			[
+				"My",
+				"MYSQLI_ASSOC\t(pclasses.php)"
+			],
+			[
+				"sq",
+				"sql"
+			],
+			[
+				"form",
+				"form-control\t(eqlist.php)"
+			],
+			[
+				"ta",
+				"tagNo"
+			],
+			[
+				"inline-",
+				"inline-flex"
+			],
+			[
+				"eq",
+				"eqTypeSelect"
+			],
+			[
+				"pack",
+				"packageSelector"
+			],
+			[
+				"repo",
+				"reportType"
+			],
+			[
 				"max",
 				"max-height"
 			],
@@ -72,10 +208,6 @@
 				"Content_Type\t(ajaxfunc.php)"
 			],
 			[
-				"fu",
-				"function"
-			],
-			[
 				"is",
 				"isset\t(ajaxfunc.php)"
 			],
@@ -94,14 +226,6 @@
 			[
 				"co",
 				"container-fluid"
-			],
-			[
-				"form",
-				"form-control"
-			],
-			[
-				"sq",
-				"sql\t(functions.php)"
 			],
 			[
 				"pr",
@@ -152,10 +276,6 @@
 				"result\t(functions.php)"
 			],
 			[
-				"te",
-				"textstatus\t(inspectionresult.php)"
-			],
-			[
 				"bt",
 				"btn-default"
 			],
@@ -194,14 +314,6 @@
 			[
 				"e",
 				"event"
-			],
-			[
-				"su",
-				"submit"
-			],
-			[
-				"op",
-				"option\tTag"
 			],
 			[
 				"i",
@@ -284,10 +396,6 @@
 				"fetch_assoc"
 			],
 			[
-				"el",
-				"else"
-			],
-			[
 				"ret",
 				"return"
 			],
@@ -320,16 +428,8 @@
 				"w_date"
 			],
 			[
-				"eq",
-				"eq_id"
-			],
-			[
 				"margin",
 				"margin-bottom"
-			],
-			[
-				"ar",
-				"arguments"
 			],
 			[
 				"bind",
@@ -414,172 +514,34 @@
 			[
 				"logshe",
 				"logsheetrows"
-			],
-			[
-				"exe",
-				"execute"
-			],
-			[
-				"user",
-				"Userid"
-			],
-			[
-				"st",
-				"stmt"
-			],
-			[
-				"con",
-				"conn"
-			],
-			[
-				"rgb",
-				"rgba()"
-			],
-			[
-				"di",
-				"display"
-			],
-			[
-				"rg",
-				"rgba()"
-			],
-			[
-				"val",
-				"value"
-			],
-			[
-				"min",
-				"min-height"
-			],
-			[
-				"bac",
-				"background-color"
-			],
-			[
-				"ht",
-				"htmlspecialchars"
-			],
-			[
-				"perio",
-				"Ins_planperiod"
-			],
-			[
-				"for",
-				"foreach\tforeach …"
-			],
-			[
-				"use",
-				"user_discipline"
-			],
-			[
-				"inc",
-				"include"
-			],
-			[
-				"pass",
-				"password"
-			],
-			[
-				"nu",
-				"num_rows"
-			],
-			[
-				"p",
-				"php"
-			],
-			[
-				"margi",
-				"margin-left"
-			],
-			[
-				"padd",
-				"padding"
-			],
-			[
-				"text",
-				"text-center"
-			],
-			[
-				"ri",
-				"margin-right"
-			],
-			[
-				"al",
-				"alt\tAttr"
-			],
-			[
-				"pre",
-				"preservationusers"
-			],
-			[
-				"u",
-				"userfname"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"file": "pages/overview.php",
+			"settings":
+			{
+				"buffer_size": 2568,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "include/functions.php",
 			"settings":
 			{
-				"buffer_size": 4731,
+				"buffer_size": 5282,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "pages/eqlist.php",
+			"file": "pages/dailyreport.php",
 			"settings":
 			{
-				"buffer_size": 1523,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "<?php"
-			}
-		},
-		{
-			"file": "include/search.php",
-			"settings":
-			{
-				"buffer_size": 1383,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "<?php"
-			}
-		},
-		{
-			"file": "pages/pln.php",
-			"settings":
-			{
-				"buffer_size": 2534,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "include/ajaxfunc.php",
-			"settings":
-			{
-				"buffer_size": 1706,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "include/pclasses.php",
-			"settings":
-			{
-				"buffer_size": 1127,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/preserve.css",
-			"settings":
-			{
-				"buffer_size": 3535,
+				"buffer_size": 2962,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -588,17 +550,58 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 2237,
+				"buffer_size": 2262,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "include/search.php",
+			"settings":
+			{
+				"buffer_size": 1384,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "<?php"
+			}
+		},
+		{
+			"contents": "\nfunction w3_open() {\n\tvar mySidenav = document.getElementById(\"pr-left-nav\");\n\n\t// Get the DIV with overlay effect\n\tvar overlayBg = document.getElementById(\"myOverlay\");\n    if (mySidenav.style.display === 'block') {\n        mySidenav.style.display = 'none';\n        overlayBg.style.display = \"none\";\n    } else {\n        mySidenav.style.display = 'block';\n        overlayBg.style.display = \"block\";\n    }\n}\n\n// Close the sidenav with the close button\nfunction w3_close() {\n\tvar mySidenav = document.getElementById(\"pr-left-nav\");\n\n\t// Get the DIV with overlay effect\n\tvar overlayBg = document.getElementById(\"myOverlay\");\n    mySidenav.style.display = \"none\";\n    overlayBg.style.display = \"none\";\n}\n\n\n/*\nwill initialize all datepicker inputs\n*/\n\nfunction datePickerInitialize() {\n    var date_input = $(\".datepicker-input\"); //our date input has the name \"date\"\n    var options ={\n            format: 'yyyy/mm/dd',\n            orientation: \"bottom auto\",\n            todayHighlight: true,\n            autoclose: true };\n    date_input.datepicker(options);\n}\n\n/*\nconvert a button text to please wait status with a fa-spinner\n*/\n\nfunction processButton(aButton){\n    $(aButton).html(\"Please Wait   <span class='fa fa-spinner fa-spin'></span>\");\n}\n\n/*\nLoads Scripts dynamically\nhttps://www.nczonline.net/blog/2009/07/28/the-best-way-to-load-external-javascript/\n*/\n\nfunction loadScript(url, callback){\n\n    var script = document.createElement(\"script\")\n    script.type = \"text/javascript\";\n\n    if (script.readyState){  //IE\n        script.onreadystatechange = function(){\n            if (script.readyState == \"loaded\" ||\n                    script.readyState == \"complete\"){\n                script.onreadystatechange = null;\n                callback();\n            }\n        };\n    } else {  //Others\n        script.onload = function(){\n            callback();\n        };\n    }\n\n    script.src = url;\n    document.getElementsByTagName(\"head\")[0].appendChild(script);\n}\n\n// calls a function from functions file using post method\nfunction callFunction (functionName,Data,successCallback,failCallback){\n    $.ajax({\n        type:\"POST\",\n        dataType:'json',\n        url:'/include/ajaxfunc.php',\n        data: {functionname: functionName,arguments: Data},\n        success: function(obj,textstatus,xhr){successCallback(obj,textstatus,xhr)},\n        fail: failCallback\n    });\n}",
+			"file": "scripts/prscripts.js",
+			"file_size": 2461,
+			"file_write_time": 131440546846540000,
+			"settings":
+			{
+				"buffer_size": 2377,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "TODO.todo",
+			"file": "include/ajaxfunc.php",
 			"settings":
 			{
-				"buffer_size": 272,
+				"buffer_size": 1832,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "include/pclasses.php",
+			"settings":
+			{
+				"buffer_size": 2163,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "connection:\n  ☐ pdo\n\nDashboard Page:\n  ☐ weather widget\n  ☐ progress bars\n  ☐ recent event\nEquipment List:\n  ☐ Build the New One\nWork Order:\n\n\nfunctions:\n  plan next periods:\n    ☐ see if is possible to get the progress of while loop?\n    ☐ increase the max time out time\n ☐ external js",
+			"file": "TODO.todo",
+			"file_size": 302,
+			"file_write_time": 131396470660139000,
+			"settings":
+			{
+				"buffer_size": 286,
 				"line_ending": "Windows"
 			}
 		},
@@ -636,10 +639,10 @@
 			}
 		},
 		{
-			"contents": "=> D:\\www\\include\\pclasses.php\n\t|+| 26\n",
+			"contents": "=> D:\\www\\include\\functions.php\n\t|+| 176\n",
 			"settings":
 			{
-				"buffer_size": 39,
+				"buffer_size": 41,
 				"line_ending": "Windows",
 				"name": "Xdebug Breakpoint",
 				"read_only": true,
@@ -655,9 +658,13 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "git",
+		"last_filter": "sy",
 		"selected_items":
 		[
+			[
+				"sy",
+				"Set Syntax: PHP"
+			],
 			[
 				"git",
 				"Git: Commit"
@@ -693,10 +700,6 @@
 			[
 				"git com",
 				"Git: Commit"
-			],
-			[
-				"sy",
-				"Set Syntax: PHP"
 			],
 			[
 				"lint",
@@ -789,17 +792,27 @@
 		"/D/www/include",
 		"/D/www/pages",
 		"/D/www/scripts",
-		"/D/www/vendor/angularjs"
+		"/D/www/vendor",
+		"/D/www/vendor/dropzone"
 	],
 	"file_history":
 	[
+		"/C/Desktop/DSKWOR00.DBF",
+		"/D/www/pages/pln.php",
+		"/D/www/include/uploadimage.php",
+		"/D/www/pages/eqlist.php",
+		"/D/www/pages/sidenav.php",
+		"/D/www/index.php",
+		"/D/www/css/preserve.css",
+		"/D/www/include/inspectionresult.php",
+		"/D/www/include/pclasses.php",
+		"/D/www/include/ajaxfunc.php",
+		"/D/www/pages/topbar.php",
 		"/D/www/scripts/prscripts.js",
 		"/D/www/vendor/angularjs/angular.min.js",
 		"/D/www/test.php",
 		"/D/www/include/connect-db.php",
 		"/D/www/pages/plan.php",
-		"/D/www/pages/pln.php",
-		"/D/www/pages/sidenav.php",
 		"/D/PHP7/php.ini",
 		"/D/www/PreservationR2.sublime-project",
 		"/D/Apache24/conf/httpd.conf",
@@ -811,12 +824,9 @@
 		"/C/Users/Mesalli/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
 		"/C/Users/Mesalli/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
 		"/D/www/include/logout.php",
-		"/D/www/include/ajaxfunc.php",
 		"/D/www/include/getactionlist.php",
 		"/D/www/include/functions.php",
-		"/D/www/css/preserve.css",
 		"/D/www/include/eqlist.php",
-		"/D/www/index.php",
 		"/D/www/pages/workorder.php",
 		"/D/AppacheWebPages/P2/pages/plan.php",
 		"/D/AppacheWebPages/P2/include/inspectionresult.php",
@@ -917,6 +927,13 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"temp",
+			"label",
+			"\t\t<label for=\"tagNo\">Tag No: </label><input type=\"text\" id=\"tagNo\">\n",
+			"input-group",
+			"Execution",
+			"nav",
+			"div",
 			"'\"",
 			"key",
 			"sResult",
@@ -1037,14 +1054,7 @@
 			"udicipline",
 			"`",
 			"`preservationusers`.`",
-			"allowo",
-			"<dire",
-			"htacc",
-			"ServerN",
-			"hta",
-			"virtu",
-			"$aReturn",
-			"activ"
+			"allowo"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1065,24 +1075,24 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "include/functions.php",
+					"file": "pages/overview.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4731,
+						"buffer_size": 2568,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								204,
-								204
+								1021,
+								1021
 							]
 						],
 						"settings":
@@ -1091,144 +1101,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 150.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "pages/eqlist.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1523,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1447,
-								1447
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<?php",
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 315.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "include/search.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1383,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								406,
-								406
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<?php",
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "pages/pln.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2534,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								13,
-								13
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 60.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "include/ajaxfunc.php",
+					"buffer": 1,
+					"file": "include/functions.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1706,
+						"buffer_size": 5282,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5,
-								5
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 360.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "include/pclasses.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1127,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								248,
-								248
+								4840,
+								4840
 							]
 						],
 						"settings":
@@ -1237,47 +1130,47 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 45.0,
+						"translation.y": 2268.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "css/preserve.css",
+					"buffer": 2,
+					"file": "pages/dailyreport.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3535,
+						"buffer_size": 2962,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1288,
-								1288
+								2589,
+								2589
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 900.0,
+						"translation.y": 585.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 3,
 					"file": "index.php",
-					"semi_transient": false,
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 2237,
+						"buffer_size": 2262,
 						"regions":
 						{
 						},
@@ -1294,10 +1187,128 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 315.0,
+						"translation.y": 225.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "include/search.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1384,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								503,
+								503
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?php",
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "scripts/prscripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "include/ajaxfunc.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1832,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1586,
+								1586
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 303.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "include/pclasses.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2163,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1827,
+								1827
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 945.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1306,15 +1317,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 272,
+						"buffer_size": 286,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								272,
-								272
+								286,
+								286
 							]
 						],
 						"settings":
@@ -1329,7 +1340,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -1363,7 +1374,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1391,7 +1402,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -1425,7 +1436,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -1433,15 +1444,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 39,
+						"buffer_size": 41,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								39,
-								39
+								41,
+								41
 							]
 						],
 						"settings":
@@ -1453,7 +1464,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
@@ -1558,60 +1569,50 @@
 			"hide_conflict": false,
 			"restore_index":
 			{
-				"15":
-				{
-					"group": 0,
-					"index": 0
-				},
 				"17":
 				{
 					"group": 0,
 					"index": 1
 				},
-				"18":
+				"20":
 				{
 					"group": 0,
-					"index": 2
-				},
-				"19":
-				{
-					"group": 0,
-					"index": 3
+					"index": 0
 				},
 				"21":
 				{
 					"group": 0,
 					"index": 4
 				},
-				"24":
+				"22":
+				{
+					"group": 0,
+					"index": 2
+				},
+				"23":
 				{
 					"group": 0,
 					"index": 5
 				},
+				"26":
+				{
+					"group": 0,
+					"index": 6
+				},
 				"27":
 				{
-					"group": 2,
-					"index": 1
+					"group": 0,
+					"index": 7
 				},
 				"28":
 				{
 					"group": 1,
 					"index": 0
 				},
-				"29":
-				{
-					"group": 2,
-					"index": 0
-				},
-				"30":
-				{
-					"group": 1,
-					"index": 1
-				},
-				"32":
+				"34":
 				{
 					"group": 0,
-					"index": 6
+					"index": 3
 				}
 			},
 			"restore_layout":

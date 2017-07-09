@@ -1,5 +1,6 @@
 <?php
 	require_once('connect-db.php');
+	require_once('pclasses.php');
 	function getUser($userid,$what_to_return = "" )
 	{
 		$mysqli = pr_connect();
@@ -165,17 +166,12 @@
 
 	// returns a list of packages
 	function packageList($filters = array()){
-		$mysqli = pr_connect();
-		$sql = "Select * from packages";
-		if (!(count($filters) == 0)) {
-			$sql .= ' where ';
-			foreach ($filters as $key => $value) {
-				$sql .= $key . '="' .$value . '"';
-			}
-		}
-		$result = $mysqli->query($sql);
-		$row = $result->fetch_all(MYSQLI_ASSOC);
-		return $row;
+		$aSearch = new eSearch;
+		$aSearch->set_fields(array('PACKAGE_CODE','PACKAGE_NAME'));
+		$aSearch->groupBy = array('PACKAGE_CODE');
+		$aSearch->set_filters($filters);
+		$sResult = $aSearch->execute();
+		return $sResult;
 	}
 
 	// returns a list of discipline

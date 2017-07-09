@@ -2,7 +2,8 @@
 require_once('../include/functions.php');
 $discipline = disciplineList();
 ?>
-
+<script src="/vendor/jQuery/jquery-3.1.1.min.js"></script>
+<script src="/scripts/prscripts.js"></script>
 <div class="header container-fluid">
 	<h1>Daily Report</h1>
 	<div class="container-fluid" id="selectDate">
@@ -26,9 +27,7 @@ $discipline = disciplineList();
 		</select>
 		<label for="packageSelector">Package </label>
 		<select name="package" id="packageSelector">
-			<?php foreach ($packages = packageList() as $key => $value) { ?>
-				<option value="<?php echo htmlspecialchars($value['PACKAGE_CODE']); ?>"> <?php echo htmlspecialchars($value['PACKAGE_NAME']); ?> </option>
-			<?php } ?>
+			
 		</select>
 		<label for="eqTypeSelect">Equipment Type </label>
 		<select name="eqTypeSelect" id="eqTypeSelect"></select>
@@ -41,28 +40,31 @@ $discipline = disciplineList();
 		<!-- <form action="../include/uploadimage.php" class="dropzone"></form> -->
 	</div>
 </div>
-<script src= "../vendor/dropzone/dropzone.js"></script>
-<script>
+<!-- <script src= "../vendor/dropzone/dropzone.js"></script>
+ --><script>
 	$(document).ready(function(){
-		datePickerInitialize();
-		loadScript("/vendor/dropzone/dropzone.js",function(){
-			$("#reportImage").dropzone({url:"include/uploadimage.php",
-			 							dictDefaultMessage: 'Upload Your Image',
-			 							autoDiscover:false,
-			 							acceptedFiles:'image/*'});
-		});
-	$('#discipline').change(function(){
-		callFunction('packageList',
-					{discipline:$(this).val()},
-					function(obj,textstatus,xhr){
-						$('#package').empty();
-						if (!('error' in obj)) {
-							for (var i = obj.result.length - 1; i >= 0; i--) {
-								var opt = "<option value='"+obj.result.PACKAGE_CODE[i]+"'>"+obj.result.PACKAGE_NAME[i]+"</option>";
-								$(this).append(opt);}
-						};
+		// datePickerInitialize();
+		// loadScript("/vendor/dropzone/dropzone.js",function(){
+		// 	$("#reportImage").dropzone({url:"include/uploadimage.php",
+		// 	 							dictDefaultMessage: 'Upload Your Image',
+		// 	 							autoDiscover:false,
+		// 	 							acceptedFiles:'image/*'});
+		// });
 
-					});
-	});
+		function fillpackage(obj,textstatus,xhr){
+			$('#packageSelector').empty();
+			if (!('error' in obj)) {
+				for (var i = obj.result.length - 1; i >= 0; i--) {
+						var opt = "<option value='"+obj.result[i].PACKAGE_CODE+"'>"+obj.result[i].PACKAGE_NAME+"</option>";
+						$('#packageSelector').append(opt);}
+			}	
+		}
+
+	    $('#discipline').on('change',function(){
+					callFunction('packageList',
+					{DISCIPLINE_ID:$(this).val()},
+					fillpackage
+					);
+		});
 	});
 </script>
