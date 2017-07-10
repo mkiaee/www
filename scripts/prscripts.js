@@ -1,3 +1,4 @@
+
 function w3_open() {
 	var mySidenav = document.getElementById("pr-left-nav");
 
